@@ -27,7 +27,7 @@ function minesweeper(matrix) {
   let rows = matrix.length;
   let cols = matrix[0].length;
   let result = Array.from({ length: rows }, () => Array(cols).fill(0));
-  
+
   const directions = [
     [-1, -1], [-1, 0], [-1, 1],
     [0, -1],          [0, 1],
